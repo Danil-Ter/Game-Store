@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.body {
+    font-family: 'Orbitron', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+.container {
+    width: 1440px;
+    padding: 0 60px;
+    margin: 0 auto;
+}
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }

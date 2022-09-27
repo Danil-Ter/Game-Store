@@ -1,0 +1,115 @@
+@font-face {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/orbitron-v25-latin-regular.woff2") format("woff2"), url("../fonts/orbitron-v25-latin-regular.woff") format("woff");
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+.body {
+  font-family: 'Orbitron', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.container {
+  width: 1440px;
+  padding: 0 60px;
+  margin: 0 auto;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.background {
+  background: -webkit-gradient(linear, left top, right top, color-stop(52%, #141820), color-stop(48%, #57B8FF));
+  background: linear-gradient(to right, #141820 52%, #57B8FF 48%);
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0;
+}
+
+.header__meny {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 100px;
+}
+
+.header__logo {
+  padding-right: 192px;
+}
+
+.header__meny a {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 0 30px;
+}
+
+.header__meny .header__link-active {
+  color: #FAC422;
+}
+
+.header__meny a:hover {
+  color: #FAC422;
+}
+
+.header__btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding-right: 40px;
+}
+
+.header__btn svg:hover path {
+  fill: #FAC422;
+}
+
+.header__contact {
+  font-family: 'Orbitron', 'Arial', sans-serif;
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+  padding: 16px 31px;
+}
+
+.header__contact:hover {
+  color: #FAC422;
+  border: 1px solid #FAC422;
+}
+
+/*# sourceMappingURL=style.css.map */

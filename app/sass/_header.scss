@@ -1,0 +1,55 @@
+.background {
+    background: linear-gradient(to right, #141820 52%,  #57B8FF 48%);
+}
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+.header__meny {
+    list-style: none;
+    display: flex;
+    padding-right: 100px;
+}
+.header__logo {
+    padding-right: 192px;
+}
+.header__meny a {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0 30px;
+}
+.header__meny .header__link-active {
+    color: #FAC422;
+}
+.header__meny a:hover {
+ color: #FAC422;
+}
+.header__btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding-right: 40px;
+}
+.header__btn svg:hover path {
+    fill: #FAC422;
+}
+.header__contact {
+    font-family: 'Orbitron', 'Arial', sans-serif;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 16px 31px;
+}
+.header__contact:hover {
+    color: #FAC422;
+    border:  1px solid #FAC422;
+   }
