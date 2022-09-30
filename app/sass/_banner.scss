@@ -1,0 +1,107 @@
+.banner {
+ padding-top: 120px;
+ padding-bottom: 100px;
+}
+.banner__link {
+    list-style: none;
+    margin-left: -90px;
+}
+.banner__link a {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 25px;
+    color: #80858F;
+    text-decoration: none;
+    writing-mode: vertical-lr;
+    transform: rotate(-180deg);
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+.banner__link a:hover {
+    color: #FAC422;
+    text-transform: uppercase;
+}
+.fire__link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #57B8FF;
+    position: relative;
+    padding-left: 40px;
+}
+.fire__link::before {
+    content: '';
+    background-image: url(../img/banner/Fire.png);
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 5px;
+    top: -10px;
+}
+.banner__box {
+ display: flex;
+ align-items: center;
+}
+.banner__left {
+padding-right: 60px;
+}
+.banner__text {
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 86px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    position: relative;
+    padding: 40px 0;
+}
+.banner__text::after {
+    content: '';
+    background-image: url(../img/banner/line.png);
+    position: absolute;
+    width: 434px;
+    height: 16px;
+    top: 210px;
+    left: 210px;
+}
+.button {
+font-family: sans-serif;
+text-decoration: none;
+display: inline-block;
+border: transparent;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+text-transform: capitalize;
+color: #FFFFFF;
+background-color: #57B8FF;
+padding: 20px 30px;
+position: relative;
+}
+.button::before {
+ content: '';
+ position: absolute;
+ width: 1.5em;
+ height: 100%;
+ top: 0;
+ left: 0;
+ background-color: rgba(#fff,0);
+ transform: translateX(0em)
+}
+.button:hover {
+    cursor: pointer;
+}
+.button:hover:before {
+    animation: blick 0.6s;
+}
+@keyframes blick {
+  0% {
+    transform: translateX(0em) 
+  }
+  1% {
+    background-color: rgba(#fff,0.6);
+  }
+  100% {
+    transform: translateX(9em)  
+  }
+}
