@@ -51,7 +51,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 20px 0;
+  padding: 20px 60px;
 }
 
 .header__meny {
@@ -257,6 +257,53 @@
     -webkit-transform: translateX(9em);
             transform: translateX(9em);
   }
+}
+
+.sponsors {
+  padding: 130px 0;
+  background: #FDD04A;
+}
+
+.sponsors__title {
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #222730;
+  position: relative;
+}
+
+.sponsors__title::after {
+  content: '';
+  background-image: url(../img/Sponsors/blue-line.png);
+  position: absolute;
+  width: 288px;
+  height: 12px;
+  top: 60px;
+  left: 560px;
+}
+
+.sponsors__company {
+  padding-top: 85px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sponsors__link {
+  text-decoration: none;
+}
+
+.sponsors__link:hover {
+  cursor: pointer;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  scale: 1.1;
+  -webkit-filter: drop-shadow(5px 5px 5px #ffffff);
+          filter: drop-shadow(5px 5px 5px #ffffff);
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,35 @@
+.sponsors {
+padding: 130px 0;
+background: #FDD04A;
+}
+.sponsors__title {
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #222730;
+    position: relative;
+}
+.sponsors__title::after {
+    content: '';
+    background-image: url(../img/Sponsors/blue-line.png);
+    position: absolute;
+    width: 288px;
+    height: 12px;
+    top: 60px;
+    left: 560px;
+}
+.sponsors__company {
+    padding-top: 85px;
+    display: flex;
+    justify-content: space-between;
+}
+.sponsors__link {
+ text-decoration: none;
+}
+.sponsors__link:hover {
+    cursor: pointer;
+    transition: 0.7s;
+    scale: 1.1;
+ filter: drop-shadow(5px 5px 5px #ffffff); 
+}
