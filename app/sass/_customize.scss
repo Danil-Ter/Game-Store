@@ -1,0 +1,29 @@
+.customize {
+    background: #2A313C;
+    height: 695px;
+}
+.customize__box {
+    display: flex;
+    align-items: center;
+    
+}
+.customize__title {
+    font-size: 64px;
+    line-height: 74px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.customize__right {
+    width: 50%;
+}
+.customize__text {
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(223, 223, 223, 0.8);
+    width: 550px;
+}
+.customize__slider {
+}
+.customize__item {
+
+}
