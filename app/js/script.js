@@ -3,3 +3,16 @@ $('.customize__slider').slick({
     slidesToShow: 3,
     slidesToScroll: 1
   });
+
+
+
+
+
+
+
+  const cards = document.querySelectorAll('.js-card');
+
+  VanillaTilt.init(cards, {
+    max: 10,
+    glare:false,
+});

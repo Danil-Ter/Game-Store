@@ -9,6 +9,18 @@
     align-items: center;
     justify-content: center;
 }
+.poster__item:hover {
+animation: size 7s;
+animation-fill-mode: forwards;
+}
+@keyframes size {
+    0% {
+    background-size: 100%;
+    }
+    100% {
+      background-size: 150%; 
+    }
+  }
 .poster__fps {
     background-image: url(../img/poster/poster-1.jpg);
     object-fit: fill;

@@ -5,6 +5,7 @@
 .customize__box {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     
 }
 .customize__title {
@@ -25,5 +26,5 @@
 .customize__slider {
 }
 .customize__item {
-
+overflow: hidden;
 }
