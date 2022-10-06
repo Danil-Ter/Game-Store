@@ -6,10 +6,6 @@ $('.customize__slider').slick({
 
 
 
-
-
-
-
   const cards = document.querySelectorAll('.js-card');
 
   VanillaTilt.init(cards, {
