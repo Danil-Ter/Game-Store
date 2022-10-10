@@ -15,7 +15,7 @@ animation-fill-mode: forwards;
 }
 @keyframes size {
     0% {
-    background-size: 100%;
+    background-size: 101%;
     }
     100% {
       background-size: 150%; 
@@ -23,7 +23,6 @@ animation-fill-mode: forwards;
   }
 .poster__fps {
     background-image: url(../img/poster/poster-1.jpg);
-    object-fit: fill;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;

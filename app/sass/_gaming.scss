@@ -1,11 +1,12 @@
 .gaming {
-    height: auto;
+    height: 1072px;
     text-align: center;
     width: auto;
     padding-top: 100px;
-    padding-bottom: 130px;
     background-image: url(../img/gaming/back.jpg);
+    background-position: center center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
 }
 .gaming__title {
